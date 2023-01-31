@@ -1,30 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="./tabs.css" rel="stylesheet">
+    <link href="/Users/elizabethmedvedeva/TeachMeSkills/lesson-3/tabs.css" rel="stylesheet">
+    <link href="./reset.css" rel="stylesheet">
 </head>
+
 <body>
-    <sectiom class="tab">
-        <div class="tab__container">
-            <div class="tab__wrapper">
-                <div class="tab__tabs">
-                    <div class="tab__selected-tab">
-                        <span>TAB1</span>
+    <sectiom class="tabs">
+        <div class="container">
+            <div class="tabs__wrapper">
+                <div class="tab__body">
+                    <div class="tabs__nav-list">
+                        <input type="radio" id="inputTab1" name="tab" value="tab1" checked>
+                        <label class="tabs__nav-item" for="inputTab1"><a class="tabs__nav-link" href="#tab1">TAB
+                                1</a></label>
+                        <input type="radio" id="inputTab2" name="tab" value="tab2">
+                        <label class="tabs__nav-item" for="inputTab2"><a class="tabs__nav-link" href="#tab2">TAB
+                                2</a></label>
+                        <input type="radio" id="inputTab3" name="tab" value="tab3">
+                        <label class="tabs__nav-item" for="inputTab3"><a class="tabs__nav-link" href="#tab3">TAB
+                                3</a></label>
                     </div>
-                    <div class="tab__tab2">
-                        <span>TAB2</span>
+                    <div class="tabs__pages">
+                        <div class="tab" id="tab1">
+                            <div class="tab__content">
+                                <div class="tab__title">
+                                    <h3>Tabs with soft transitioning effect.</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tabs__description">
+                            <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut soluta dolor ipsum dolorem
+                                cumque sit nostrum ducimus illo inventore similique molestiae vel voluptatum quisquam
+                                sequi ipsam voluptatem, alias sapiente doloribus. Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Voluptatem illo quo sit obcaecati omnis facere assumenda consectetur
+                                vitae accusantium labore odio exercitationem, vero sapiente voluptates. Deleniti, illum.
+                                Tempora, excepturi? Nulla!</h5>
+                        </div>
+                        <div class="tab__button">
+                            <button type="button">Download</button>
+                        </div>
                     </div>
-                    <div class="tab__tab3">
-                        <span>TAB3</span>
+                    <div class="tab__image">
+                        <img src="/Users/elizabethmedvedeva/TeachMeSkills/lesson-3/img_tabs Small.png"
+                            alt="liberty_state">
                     </div>
-                    <div class="empty-tub"></div>
                 </div>
-                <div class="tab__main">
-                    <div class="tab__header">
+            </div>
+        </div>
+    </section>
+        <!-- <div class="tab__header">
                         <h3>Tabs with soft transitioning effect.</h3>
                     </div>
                     <div class="tab__content">
@@ -36,10 +66,11 @@
                     
                 </div>
                 <div class="tab__image">
-                    <img src="./lesson-3/img_tabs Small.png" alt="liberty_state">
+                    <img src="/Users/elizabethmedvedeva/TeachMeSkills/lesson-3/img_tabs Small.png" alt="liberty_state">
                 </div>
             </div>
         </div>
-    </sectiom>
+    </sectiom> -->
 </body>
+
 </html>
