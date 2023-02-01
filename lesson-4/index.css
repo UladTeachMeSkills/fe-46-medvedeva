@@ -7,27 +7,40 @@ body{
 .container{
     max-width: 1140px;
     margin: 0 auto;
-    background-color: beige;
 }
 .wrapper{
     display: flex;
     padding: 50px 0 25px 0;;
 }
 .card{
-    
+    width: 555px;
+    height: 296px;
     display: flex;
     box-sizing: border-box;
+    margin-right: 15px;
+    margin-left: 15px;
     background: linear-gradient(257.26deg, #008BF0 -13.2%, #D943C9 130.95%);
-    border: 1px solid rgba(0, 0, 0, 0.1);;
+    border: 1px solid rgba(0, 0, 0, 0.1);
 }
-.card__image{
+.card__body{
+    display: flex;
+}
+.card__image-drone{
     display: flex;
     width: 275px;
     height: 231px;
 }
+.card__image-camera{
+    display: flex;
+    width: 238.12px;
+    height: 151.26px;
+    padding-top: 36px;
+}
 .card__percent{
     width: 241px;
     height: 27px;
+    padding-left: 35px;
+    padding-top: 75px;
 }
 .card__percent text{
     font-style: normal;
@@ -42,7 +55,7 @@ body{
 .card__header{
     width: 249px;
     height: 81px;
-
+    padding-left: 35px;
 }
 .card__header text{
     font-style: normal;
@@ -54,6 +67,7 @@ body{
 .card__show{
     width: 76px;
     height: 27px;
+    padding-left: 35px;
 }
 .card__show text{
 font-style: normal;
