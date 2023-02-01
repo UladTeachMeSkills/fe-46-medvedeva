@@ -25,6 +25,10 @@ body{
     width: 275px;
     height: 231px;
 }
+.card__percent{
+    width: 241px;
+    height: 27px;
+}
 .card__percent text{
     font-style: normal;
     font-weight: 500;
@@ -46,6 +50,10 @@ body{
     font-size: 31px;
     line-height: 40px;
     color: #F4F9FC;
+}
+.card__show{
+    width: 76px;
+    height: 27px;
 }
 .card__show text{
 font-style: normal;
