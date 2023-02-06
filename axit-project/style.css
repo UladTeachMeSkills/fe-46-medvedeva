@@ -1,33 +1,379 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-.body{
+.body {
     font-family: 'Raleway', sans-serif;
 }
-.contact__container{
+
+.banner__container {
     width: 100%;
 }
-.contact__wrapper{
+
+.banner__wrapper {
+    width: 1510px;
     display: flex;
     flex-direction: column;
-    /*background-color: bisque;*/
+    align-items: center;
+    background-color: bisque;
+}
+
+.banner__header {
+    width: 1510px;
+    height: 75px;
+    background-color: #000000;
+    display: flex;
+    flex-direction: row;
+}
+
+.header__logo {
+    width: 83.98px;
+    height: 30.69px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 115.28px;
+    margin-top: 22.46px;
+}
+
+.logo__ax {
+    width: 51.81px;
+    height: 30.69px;
+}
+
+.logo__it {
+    width: 32.17px;
+    height: 30.69px;
+}
+
+.header__sections {
+    width: 594.96px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-left: 567.91px;
+}
+
+.banner__body {
+    width: 1510px;
+    height: 1026px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(city.png);
+    background-size: 1510px 1026px;
+    display: flex;
     align-items: center;
 }
-.contact__header{
+
+.banner__left-section {
+    display: flex;
+    flex-direction: column;
+    margin-left: 170px;
+
+}
+
+.left-section__logotip {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+
+.logotip__ax {
+    width: 102px;
+    height: 55px;
+}
+
+.logotip__it {
+    width: 63px;
+    height: 55px;
+}
+
+.left-section__title {
+    width: 670px;
+    height: 168px;
+    margin-bottom: 55.12px;
+}
+
+.left-section__title h1 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+#white__divider {
+    border-color: #FFFFFF;
+}
+
+.left-section__button button {
+    width: 270px;
+    height: 58px;
+    background: transparent;
+    border: 2px solid #FFFFFF;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.left-section__text {
+    width: 270px;
+    height: 42px;
+    margin-top: 42px;
+    margin-bottom: 42px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+
+}
+
+.banner__right-section {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-right: 170px;
+}
+
+.right-section__card {
+    width: 470px;
+    height: 450px;
+    background-color: #FFFFFF;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+.card__title {
+    width: 367px;
+    height: 90px;
+    margin: 0 40px 45px 60px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.card__title span {
+    color: #EC7979;
+}
+
+.card__card-input {
+    padding: 0 50px 0 50px;
+}
+
+.card-input__name input {
+    width: 370px;
+    height: 35px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #BDBDBD;
+    margin-bottom: 53px;
+    border-style: hidden hidden groove hidden;
+    border-color: #BDBDBD;
+}
+
+.card-input__email input {
+    width: 370px;
+    height: 35px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #BDBDBD;
+    margin-bottom: 53px;
+    border-style: hidden hidden groove hidden;
+    border-color: #BDBDBD;
+}
+
+.card-input__psw input {
+    width: 370px;
+    height: 35px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #BDBDBD;
+    border-style: hidden hidden groove hidden;
+    border-color: #BDBDBD;
+
+}
+
+.card__btn button {
+    width: 470px;
+    height: 60px;
+    margin-top: 45px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #EC7979;
+    border-style: hidden;
+    border-radius: 0 0 10px 10px;
+}
+
+.card__btn button:hover {
+    border: #EC7979 1px solid;
+    color: #EC7979;
+    background: #FFFFFF;
+}
+
+.banner__footer {
+    width: 1510px;
+    height: 140px;
+    display: flex;
+    flex-direction: row;
+    background-color: #F8EFEF;
+    ;
+    align-items: center;
+}
+
+.text__social-media {
+    width: 470px;
+    height: 60px;
+    margin-left: 170px;
+}
+
+.text__social-media h4 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #333333;
+}
+
+.text__text {
+    width: 470px;
+    height: 42px;
+    margin-left: 170px;
+}
+
+.text__text h5 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #86878B;
+}
+
+.footer__pic {
+    width: 637.21px;
+    height: 140px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.pic__facebook {
+    width: 30.32px;
+    height: 55.42px;
+}
+
+.pic__twitter {
+    width: 57.32px;
+    height: 46.56px;
+}
+
+.pic__linkedin {
+    width: 52.5px;
+    height: 52.5px;
+}
+
+.pic__pinterest {
+    width: 58.33px;
+    height: 58.33px;
+}
+
+.pic__instagram {
+    width: 53px;
+    height: 53px;
+}
+
+.pic__github {
+    width: 58.18px;
+    height: 56.75px;
+}
+
+.pic__rss {
+    width: 46px;
+    height: 46px;
+}
+
+.contact__container {
+    width: 100%;
+}
+
+.contact__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1510px;
+}
+
+.contact__header {
     max-width: 1170px;
     display: flex;
     flex-direction: column;
     align-items: center;
-   
+
+
 }
-.contact__title{
+
+.contact__title {
     max-width: 1170px;
     display: flex;
     align-items: center;
     padding: 50px 0 30px 0;
 
 }
-.contact__title h2{
+
+.contact__title h2 {
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
@@ -39,18 +385,18 @@
     color: #000000;
 }
 
-.divider{
+.divider {
     width: 170px;
     border: 1px solid #EC7979;
     margin-bottom: 20px;
 }
 
-.contact__info{
+.contact__info {
     max-width: 1169px;
     padding-bottom: 50px;
 }
 
-.contact__info h5{
+.contact__info h5 {
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -61,13 +407,11 @@
     color: #86878B;
 }
 
-.contact__body{
-display: flex;
+.contact__body {
+    display: flex;
 }
-.contact__input{
-    
-}
-.input__name input{
+
+.input__name input {
     width: 571px;
     height: 35px;
     font-family: 'Open Sans';
@@ -82,7 +426,8 @@ display: flex;
     border-style: hidden hidden groove hidden;
     border-color: #BDBDBD;
 }
-.input__email input{
+
+.input__email input {
     width: 571px;
     height: 35px;
     font-family: 'Open Sans';
@@ -92,12 +437,13 @@ display: flex;
     line-height: 19px;
     display: flex;
     align-items: center;
-    color: #BDBDBD;  
+    color: #BDBDBD;
     margin-bottom: 53px;
     border-style: hidden hidden groove hidden;
     border-color: #BDBDBD;
 }
-.input__password input{
+
+.input__password input {
     width: 571px;
     height: 35px;
     font-family: 'Open Sans';
@@ -111,10 +457,8 @@ display: flex;
     border-style: hidden hidden groove hidden;
     border-color: #BDBDBD;
 }
-.contact__message{
-    
-}
-.input__message input{
+
+.input__message input {
     width: 569px;
     height: 211px;
     font-family: 'Open Sans';
@@ -130,10 +474,12 @@ display: flex;
     margin-left: 30px;
     margin-bottom: 50px;
 }
-.input__message input::placeholder{
+
+.input__message input::placeholder {
     position: absolute;
 }
-.contact__btn button{
+
+.contact__btn button {
     width: 370px;
     height: 58px;
     font-family: 'Open Sans';
@@ -142,7 +488,7 @@ display: flex;
     font-size: 18px;
     line-height: 25px;
     display: flex;
-    align-items:center;
+    align-items: center;
     text-align: center;
     text-transform: capitalize;
     color: #FFFFFF;
@@ -150,20 +496,24 @@ display: flex;
     background-color: #EC7979;
     border-style: hidden;
 }
-.contact__btn button:hover{
+
+.contact__btn button:hover {
     border: #EC7979 1px solid;
     color: #EC7979;
     background: #FFFFFF;
-   
+
 }
-.contact__footer{
+
+.contact__footer {
     display: flex;
     flex-direction: column;
     background-color: #000000;
     margin-top: 105px;
     align-items: center;
+    width: 1510px;
 }
-.contact__images{
+
+.contact__images {
     width: 1510px;
     height: 164px;
     display: flex;
@@ -171,38 +521,45 @@ display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
-.images__facebook{
+
+.images__facebook {
     width: 23.04px;
     height: 42.12px;
     margin-left: 485.08px;
 }
-.images__twitter{
+
+.images__twitter {
     width: 43.56px;
     height: 35.38px;
 }
-.images__linkedin{
+
+.images__linkedin {
     width: 39.9px;
     height: 39.9px;
 }
-.images__pinterest{
+
+.images__pinterest {
     width: 44.33px;
     height: 44.33;
 }
-.images__instagram{
+
+.images__instagram {
     width: 39.92px;
     height: 39.98px;
 }
 
-.images__github{
+.images__github {
     width: 44.22px;
-    height: 43.13px; 
+    height: 43.13px;
 }
-.images__rss{
+
+.images__rss {
     width: 34.49px;
-    height: 34.49px; 
+    height: 34.49px;
     margin-right: 480.64px;
 }
-.contact__signature h5{
+
+.contact__signature h5 {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
