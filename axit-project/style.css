@@ -478,7 +478,10 @@
 .input__message input::placeholder {
     position: absolute;
 }
-
+.contact__btn{
+    display: flex;
+    justify-content: center;
+}
 .contact__btn button {
     width: 370px;
     height: 58px;
