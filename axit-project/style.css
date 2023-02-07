@@ -301,7 +301,7 @@
     color: #86878B;
 }
 
-.footer__pic {
+.pic__list{
     width: 637.21px;
     height: 140px;
     display: flex;
@@ -309,7 +309,6 @@
     align-items: center;
     justify-content: space-evenly;
 }
-
 .pic__facebook {
     width: 30.32px;
     height: 55.42px;
