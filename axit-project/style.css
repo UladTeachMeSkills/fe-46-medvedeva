@@ -129,7 +129,11 @@
     text-transform: capitalize;
     color: #FFFFFF;
 }
-
+.left-section__button button:hover{
+    border: #EC7979 1px solid;
+    color: #EC7979;
+    background: #FFFFFF;
+}
 .left-section__text {
     width: 270px;
     height: 42px;
@@ -515,7 +519,7 @@
     width: 1510px;
 }
 
-.contact__images {
+.images__list{
     width: 1510px;
     height: 164px;
     display: flex;
